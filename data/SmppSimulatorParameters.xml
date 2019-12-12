@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_181" class="java.beans.XMLDecoder">
+ <object class="org.mobicents.smsc.tools.smppsimulator.SmppSimulatorParameters">
+  <void property="host">
+   <string>172.18.0.3</string>
+  </void>
+  <void property="mcDeliveryReceipt">
+   <object class="java.lang.Enum" method="valueOf">
+    <class>org.mobicents.smsc.tools.smppsimulator.SmppSimulatorParameters$MCDeliveryReceipt</class>
+    <string>onSuccessOrFailure</string>
+   </object>
+  </void>
+  <void property="messagingMode">
+   <object class="java.lang.Enum" method="valueOf">
+    <class>org.mobicents.smsc.tools.smppsimulator.SmppSimulatorParameters$MessagingMode</class>
+    <string>transaction</string>
+   </object>
+  </void>
+  <void property="responseDelay">
+   <long>1000</long>
+  </void>
+  <void property="smppEncoding">
+   <int>2</int>
+  </void>
+  <void property="systemId">
+   <string>mysystemid</string>
+  </void>
+ </object>
+</java>
